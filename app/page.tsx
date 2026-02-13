@@ -166,7 +166,7 @@ const messages = [
   },
   {
     title: "Adalah Pokoknya",
-    content: "Aku gabisa bohong sih kalau aku sedih pas kamu gamau ketemu. Aku kangen banget. Padahal ketemu sebentar aja udah cukup banget buat aku. (Aku beneran gaada makanan di rumah).",
+    content: "Aku gabisa bohong sih kalau aku sedih pas kamu gamau ketemu. Aku kangen banget. Padahal ketemu sebentar aja udah cukup banget buat aku. (Aku beneran gaada makanan di rumah, hehe).",
     emoji: "😔"
   },
   {
