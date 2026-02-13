@@ -8,7 +8,7 @@ import { Heart, Stars } from "lucide-react";
 const LoveEngine = ({ isHovered, targetRef }: { isHovered: boolean, targetRef: React.RefObject<HTMLDivElement> }) => {
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const particles = useRef<any[]>([]);
-  const animationRef = useRef<number>();
+  const animationRef = useRef<number>(undefined);
 
   useEffect(() => {
     const canvas = canvasRef.current;
