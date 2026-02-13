@@ -5,7 +5,7 @@ import { motion, useSpring, useTransform, useScroll } from "framer-motion";
 import { Heart, Stars } from "lucide-react";
 
 // --- 1. LOVE PARTICLE ENGINE ---
-const LoveEngine = ({ isHovered, targetRef }: { isHovered: boolean, targetRef: React.RefObject<HTMLDivElement> }) => {
+const LoveEngine = ({ isHovered, targetRef }: { isHovered: boolean, targetRef: React.RefObject<HTMLDivElement | null> }) => {
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const particles = useRef<any[]>([]);
   const animationRef = useRef<number>(undefined);
